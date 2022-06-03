@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Moses Chukwuma About</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- Logo & Navvigation-->
+    <header>
+      <!--Logo-->
+      <div class="logo">
+        <p>So<span>Chuks</span></p>
+      </div>
+      <!--Navvigation-->
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="reg.html">Registration</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+
+        <!----Contact Form ---->
+      <div class="container">
+        <form id="registration" action="post">
+          <h3>Registration Page</h3>
+          <h4>Fill the form below with the correct information</h4>
+                <!-- First Name-->
+                <fieldset>
+                <input placeholder="First name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <!-- Last Name-->
+              <fieldset>
+              <input placeholder="Last name" type="text" tabindex="2" required >
+            </fieldset>
+            <!-- Telephone Number-->
+            <fieldset>
+            <input placeholder="Phone No." type="phone" tabindex="3" required >
+          </fieldset>
+          <!-- Gender -->
+            <fieldset>
+              <label for ="gender">Select Gender</label><br>
+           <select name ="gender" tabindex="4" required>
+             <option>Male</option>
+             <option>Female</option>
+           </select>
+           </fieldset>
+           <!-- Country-->
+           <fieldset>
+           <input placeholder="Country" type="text" tabindex="5" required >
+         </fieldset>
+         <!-- State -->
+         <fieldset>
+         <input placeholder="State" type="text" tabindex="6" required >
+       </fieldset>
+              <!--Email-->
+              <fieldset>
+              <input placeholder="Email" type="email" tabindex="7" required >
+            </fieldset>
+            <!--Password-->
+            <fieldset>
+            <input placeholder="Password" type="password" tabindex="8" required >
+          </fieldset>
+          <!--Confirm Password-->
+          <fieldset>
+          <input placeholder="Confirm Password" type="password" tabindex="9" required >
+        </fieldset>
+            <!--Button-->
+          <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+
+        </form>
+      </div>
+
+</main>
+
+<footer>
+<div class="wrapper">
+<small>&copy;2017 <strong>SoChuks</strong>, All Rights Reserved</small>
+<nav class="footer-nav">
+  <a href="#">Back to Top</a>
+  <a href="#">Terms of Use</a>
+  <a href="#">Privacy</a>
+</nav>
+</div>
+</footer>
+
+  </body>
+
+
+</html>
